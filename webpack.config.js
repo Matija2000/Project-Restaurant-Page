@@ -10,4 +10,5 @@ module.exports = {
     static: "./dist",
   },
   mode: "development",
+  devtool: "inline-source-map",
 };
