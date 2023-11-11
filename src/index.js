@@ -8,10 +8,13 @@ const buttons = (function () {
   const buttons = document.querySelector("#buttons");
   const div = document.querySelector("#content");
   const home = document.createElement("button");
+  home.classList.add("home");
   home.textContent = "HOME";
   const menu = document.createElement("button");
+  menu.classList.add("menu");
   menu.textContent = "MENU";
   const contact = document.createElement("button");
+  contact.classList.add("contact");
   contact.textContent = "CONTACT";
   document.body.appendChild(div);
   buttons.appendChild(home);

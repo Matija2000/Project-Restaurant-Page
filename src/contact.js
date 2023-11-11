@@ -4,10 +4,14 @@ export function createContactPage() {
   header.textContent = "Contact";
   div.appendChild(header);
   document.body.appendChild(div);
-}
 
-function createDivBox() {
   const box = document.createElement("div");
-  box.classList.add("box");
-  return box;
+  box.classList.add("box_for_p");
+  const p = document.createElement("p");
+  p.classList.add("contact_p");
+  const email = "REALEMAIL@gmail.com";
+  const phoneNum = "929 - 123 - 123 - 123 - 343";
+  p.textContent = `You can order by sending a message on ${email} or by calling on ${phoneNum}.`;
+  box.appendChild(p);
+  div.appendChild(box);
 }
