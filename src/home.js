@@ -1,3 +1,4 @@
+import rest from "./pictures/rest.jpg";
 export function createHomePage() {
   const content = document.querySelector("#content");
   const header = document.createElement("h1");
@@ -6,7 +7,7 @@ export function createHomePage() {
   divForImg.classList.add("divForImg");
   const image = document.createElement("img");
   image.classList.add("home_image");
-  image.src = "./pictures/rest.jpg";
+  image.src = rest;
   const para = document.createElement("p");
   para.textContent = `
   Matija's restaurant is a culinary haven where flavors dance on your palate, leaving you in awe of each delectable bite.
