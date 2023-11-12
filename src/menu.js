@@ -1,3 +1,7 @@
+import onejpg from "./pictures/1.jpg";
+import twojpg from "./pictures/2.jpg";
+import threejpg from "./pictures/3.jpg";
+
 export function createMenuPage() {
   const box1 = createDivBox();
   const box2 = createDivBox();
@@ -14,7 +18,7 @@ export function createMenuPage() {
   const title1 = createTitle();
   title1.textContent = "vegetable salad served on white bowl";
   const img1 = createImage();
-  img1.src = "./pictures/1.jpg";
+  img1.src = onejpg;
   const p1 = createParagraph();
   p1.textContent =
     "Indulge in the vibrant flavors of our fresh vegetable salad, artfully presented in a pristine white bowl, a culinary masterpiece that delights the senses.";
@@ -22,7 +26,7 @@ export function createMenuPage() {
   const title2 = createTitle();
   title2.textContent = "green vegetable on brown ceramic plate";
   const img2 = createImage();
-  img2.src = "./pictures/2.jpg";
+  img2.src = twojpg;
   const p2 = createParagraph();
   p2.textContent =
     "Savor the crisp goodness of our green vegetable medley, elegantly arranged on a rustic brown ceramic plate, a symphony of colors and textures that embodies both taste and visual appeal.";
@@ -43,7 +47,7 @@ export function createMenuPage() {
   const title3 = createTitle();
   title3.textContent = "Vegan pizza";
   const img3 = createImage();
-  img3.src = "./pictures/3.jpg";
+  img3.src = threejpg;
   const p3 = createParagraph();
   p3.textContent =
     "Experience the perfect harmony of plant-based delight with our vegan pizza, crafted to perfection and served on a golden-brown crust that captures the essence of flavor without compromise";
